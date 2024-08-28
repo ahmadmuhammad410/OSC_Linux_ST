@@ -1,0 +1,4 @@
+1-mkdir task-5
+2-touch email.txt processes.txt solution.txt
+3-cut -d "," -f 2 info.csv | uniq | sort > emails.txt
+4-ps -e --sort=cmd >processes.txt
